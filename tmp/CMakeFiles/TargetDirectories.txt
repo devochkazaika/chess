@@ -1,0 +1,5 @@
+/home/ilya/Рабочий стол/проекты/chess/tmp/CMakeFiles/edit_cache.dir
+/home/ilya/Рабочий стол/проекты/chess/tmp/CMakeFiles/rebuild_cache.dir
+/home/ilya/Рабочий стол/проекты/chess/tmp/src/CMakeFiles/main.dir
+/home/ilya/Рабочий стол/проекты/chess/tmp/src/CMakeFiles/edit_cache.dir
+/home/ilya/Рабочий стол/проекты/chess/tmp/src/CMakeFiles/rebuild_cache.dir
