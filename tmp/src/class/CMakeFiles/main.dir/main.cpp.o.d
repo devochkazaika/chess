@@ -1,7 +1,7 @@
 src/class/CMakeFiles/main.dir/main.cpp.o: \
  /home/ilya/Рабочий\ стол/проекты/chess/src/class/main.cpp \
  /usr/include/stdc-predef.h /usr/include/SFML/Graphics.hpp \
- /usr/include/SFML/Window.hpp /usr/include/SFML/System.hpp \
+ /usr/include/SFML/Window.hpppp /usr/include/SFML/System.hpp \
  /usr/include/SFML/Config.hpp /usr/include/SFML/System/Clock.hpp \
  /usr/include/SFML/System/Export.hpp /usr/include/SFML/System/Time.hpp \
  /usr/include/SFML/System/Err.hpp /usr/include/c++/11/ostream \
@@ -202,12 +202,12 @@ src/class/CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/SFML/Window/Export.hpp /usr/include/SFML/Window/Context.hpp \
  /usr/include/SFML/Window/GlResource.hpp \
  /usr/include/SFML/Window/ContextSettings.hpp \
- /usr/include/SFML/Window/Cursor.hpp /usr/include/SFML/Window/Event.hpp \
+ /usr/include/SFML/Window/Cursor.hpp /usr/include/SFML/Window/Event.hpppp \
  /usr/include/SFML/Window/Joystick.hpp \
  /usr/include/SFML/Window/Keyboard.hpp /usr/include/SFML/Window/Mouse.hpp \
  /usr/include/SFML/Window/Sensor.hpp /usr/include/SFML/Window/Touch.hpp \
  /usr/include/SFML/Window/VideoMode.hpp \
- /usr/include/SFML/Window/Window.hpp \
+ /usr/include/SFML/Window/Window.hpppp \
  /usr/include/SFML/Window/WindowHandle.hpp \
  /usr/include/SFML/Window/WindowStyle.hpp \
  /usr/include/SFML/Graphics/BlendMode.hpp \
@@ -233,13 +233,13 @@ src/class/CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/RenderTarget.hpp \
  /usr/include/SFML/Graphics/View.hpp \
  /usr/include/SFML/Graphics/RenderTexture.hpp \
- /usr/include/SFML/Graphics/RenderWindow.hpp \
+ /usr/include/SFML/Graphics/RenderWindow.hpppp \
  /usr/include/SFML/Graphics/Shader.hpp \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/ilya/Рабочий\ стол/проекты/chess/src/class/Figure.h \
+ /home/ilya/Рабочий\ стол/проекты/chess/src/class/Figure.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/ilya/Рабочий\ стол/проекты/chess/src/class/Window.h
+ /home/ilya/Рабочий\ стол/проекты/chess/src/class/Window.hpp

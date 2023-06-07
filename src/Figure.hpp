@@ -1,25 +1,31 @@
+#pragma once
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <string>
-#include "Deskt.h"
+#include <vector>
+
+struct x_y{
+    int x;
+    int y;
+    x_y(int x, int y);
+};
 
 class Figure{
     public:
         sf::RectangleShape rect;
         sf::Texture image_w;
         sf::Texture image_b;
+        std::vector <x_y> variant;
         std::string path;
         int x_pos;
         int y_pos;
         bool colour;
-        Figure(){
-        }
-        ~Figure(){}
+        Figure();
+        ~Figure();
 
-        void setPosition(const sf::Vector2f &k){
-            rect.setPosition(k);
-        }
-        int get_x(){
+        void setPosition(const sf::Vector2f &k);
+
+        /*int get_x(){
             return x_pos;
         }
         int get_y(){
@@ -27,7 +33,7 @@ class Figure{
         }
         bool get_c(){
             return colour;
-        }
+        }*/
 
         // void operator=(Figure &t){
         //     x_pos = t.get_x();
@@ -39,16 +45,12 @@ class Figure{
 
 class Peshka: public Figure{
     public:
-        Peshka(bool c){
-            rect.setSize(sf::Vector2f(67, 67));
-            
-        }
-        ~Peshka(){
-        }
+        Peshka(bool c);
+        ~Peshka();
+        std::vector <x_y> variant;
         private:
             int x_pos;
             int y_pos;
             bool colour;
 
 };
-

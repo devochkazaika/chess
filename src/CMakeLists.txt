@@ -1,2 +1,6 @@
+set(SOURCES Deskt.cpp Figure.cpp Window.cpp Event.cpp)
+set(HEADERS Deskt.hpp Figure.hpp Window.hpp Event.hpp)
+add_library(lib ${SOURCES} ${HEADERS})
 add_executable(main main.cpp)
+target_link_libraries(main lib)
 target_link_libraries(main sfml-system sfml-window sfml-graphics sfml-audio)

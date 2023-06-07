@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib.a CMakeFiles/lib.dir/Deskt.cpp.o CMakeFiles/lib.dir/Figure.cpp.o CMakeFiles/lib.dir/Window.cpp.o CMakeFiles/lib.dir/Event.cpp.o
+/usr/bin/ranlib liblib.a

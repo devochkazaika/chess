@@ -1,37 +1,20 @@
-#include <iostream>
-#include <SFML/Graphics.hpp>
-#include <string>
-#include <vector>
 
+#include "Deskt.hpp"
 
-
-class Pol{
-    public:
-        int i;
-        int j;
-        Figure k;
-        sf::RectangleShape pod;
-        Pol(){
+Pol::Pol(){
             pod.setSize(sf::Vector2f(67, 67));
             pod.setFillColor(sf::Color::Green);
         }
-        Pol(int x, int y, Figure &t){
+Pol::Pol(int x, int y, Figure &t){
             k = t;
             i = x;
             j = y;
             t.setPosition(sf::Vector2f(30+i*60, 40));
         }
-        ~Pol(){
-        }
-};
+Pol::~Pol(){}
 
-class Deskt{
-    public:
-        sf::Texture image;
-        sf::RectangleShape rectangle;
-        sf::RectangleShape line;
-        Pol a[8][8];
-        Deskt(){
+Deskt::Deskt(){
+            std::vector <sf::RectangleShape> green();
             if (!image.loadFromFile("/home/ilya/Рабочий стол/проекты/chess/src/images/Desk.png")){
                 std::cout << "EROR";
             }
@@ -45,12 +28,3 @@ class Deskt{
             rectangle.setTexture(&image);
         }
 
-        void choose(float x, float y){
-            int i;
-            int j;
-            i = (x - 30)/67.5;
-            j = (y - 30)/67.5;
-            draw(a[i][j].pod);
-            //draw(a[i][j]);
-        }
-};

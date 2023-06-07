@@ -301,13 +301,13 @@ src/CMakeFiles/main.dir/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../src/Window.h \
-  ../src/Event.h \
-  ../src/Figure.h \
-  ../src/Deskt.h
+  ../src/Figure.hpp \
+  ../src/Deskt.hpp \
+  ../src/Window.hpp \
+  ../src/Event.hpp
 
 
-../src/Event.h:
+../src/Event.hpp:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -581,6 +581,8 @@ src/CMakeFiles/main.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
+../src/Deskt.hpp:
+
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
@@ -683,8 +685,6 @@ src/CMakeFiles/main.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/bits/string_view.tcc:
 
-../src/Window.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/c++/11/bits/functexcept.h:
@@ -749,8 +749,6 @@ src/CMakeFiles/main.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/stdio.h:
 
-../src/Figure.h:
-
 /usr/include/SFML/Graphics/VertexArray.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
@@ -766,8 +764,6 @@ src/CMakeFiles/main.dir/main.cpp.o: ../src/main.cpp \
 /usr/include/wctype.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
-
-../src/Deskt.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -835,6 +831,8 @@ src/CMakeFiles/main.dir/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/bits/stl_algo.h:
 
+../src/Window.hpp:
+
 /usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/c++/11/bits/algorithmfwd.h:
@@ -862,6 +860,8 @@ src/CMakeFiles/main.dir/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/bits/erase_if.h:
 
 /usr/include/c++/11/vector:
+
+../src/Figure.hpp:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 

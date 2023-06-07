@@ -4,7 +4,7 @@
 src/class/CMakeFiles/main.dir/main.cpp.o: ../src/class/main.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/SFML/Graphics.hpp \
-  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window.hpppp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/Config.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -254,14 +254,14 @@ src/class/CMakeFiles/main.dir/main.cpp.o: ../src/class/main.cpp \
   /usr/include/SFML/Window/GlResource.hpp \
   /usr/include/SFML/Window/ContextSettings.hpp \
   /usr/include/SFML/Window/Cursor.hpp \
-  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Event.hpppp \
   /usr/include/SFML/Window/Joystick.hpp \
   /usr/include/SFML/Window/Keyboard.hpp \
   /usr/include/SFML/Window/Mouse.hpp \
   /usr/include/SFML/Window/Sensor.hpp \
   /usr/include/SFML/Window/Touch.hpp \
   /usr/include/SFML/Window/VideoMode.hpp \
-  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/Window.hpppp \
   /usr/include/SFML/Window/WindowHandle.hpp \
   /usr/include/SFML/Window/WindowStyle.hpp \
   /usr/include/SFML/Graphics/BlendMode.hpp \
@@ -291,27 +291,27 @@ src/class/CMakeFiles/main.dir/main.cpp.o: ../src/class/main.cpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/Graphics/RenderTexture.hpp \
-  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpppp \
   /usr/include/SFML/Graphics/Shader.hpp \
   /usr/include/SFML/Graphics/Glsl.hpp \
   /usr/include/SFML/Graphics/Glsl.inl \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Text.hpp \
   /usr/include/SFML/Graphics/VertexBuffer.hpp \
-  ../src/class/Figure.h \
+  ../src/class/Figure.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../src/class/Window.h
+  ../src/class/Window.hpp
 
 
-../src/class/Window.h:
+../src/class/Window.hpp:
 
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/include/c++/11/istream:
 
-../src/class/Figure.h:
+../src/class/Figure.hpp:
 
 /usr/include/SFML/Graphics/VertexBuffer.hpp:
 
@@ -323,7 +323,7 @@ src/class/CMakeFiles/main.dir/main.cpp.o: ../src/class/main.cpp \
 
 /usr/include/SFML/Graphics/Shader.hpp:
 
-/usr/include/SFML/Graphics/RenderWindow.hpp:
+/usr/include/SFML/Graphics/RenderWindow.hpppp:
 
 /usr/include/SFML/Graphics/RenderTarget.hpp:
 
@@ -365,7 +365,7 @@ src/class/CMakeFiles/main.dir/main.cpp.o: ../src/class/main.cpp \
 
 /usr/include/SFML/Window/WindowHandle.hpp:
 
-/usr/include/SFML/Window/Window.hpp:
+/usr/include/SFML/Window/Window.hpppp:
 
 /usr/include/SFML/Graphics/Font.hpp:
 
@@ -809,7 +809,7 @@ src/class/CMakeFiles/main.dir/main.cpp.o: ../src/class/main.cpp \
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 
-/usr/include/SFML/Window.hpp:
+/usr/include/SFML/Window.hpppp:
 
 /usr/include/SFML/System/FileInputStream.hpp:
 
@@ -903,7 +903,7 @@ src/class/CMakeFiles/main.dir/main.cpp.o: ../src/class/main.cpp \
 
 /usr/include/SFML/System/String.inl:
 
-/usr/include/SFML/Window/Event.hpp:
+/usr/include/SFML/Window/Event.hpppp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 

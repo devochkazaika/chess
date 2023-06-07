@@ -117,6 +117,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/lib.dir/rule:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/lib.dir/rule
+.PHONY : src/CMakeFiles/lib.dir/rule
+
+# Convenience name for target.
+lib: src/CMakeFiles/lib.dir/rule
+.PHONY : lib
+
+# fast build rule for target.
+lib/fast:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/build
+.PHONY : lib/fast
+
+# Convenience name for target.
 src/CMakeFiles/main.dir/rule:
 	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
 .PHONY : src/CMakeFiles/main.dir/rule
@@ -129,6 +143,102 @@ main: src/CMakeFiles/main.dir/rule
 main/fast:
 	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+Deskt.o: Deskt.cpp.o
+.PHONY : Deskt.o
+
+# target to build an object file
+Deskt.cpp.o:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Deskt.cpp.o
+.PHONY : Deskt.cpp.o
+
+Deskt.i: Deskt.cpp.i
+.PHONY : Deskt.i
+
+# target to preprocess a source file
+Deskt.cpp.i:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Deskt.cpp.i
+.PHONY : Deskt.cpp.i
+
+Deskt.s: Deskt.cpp.s
+.PHONY : Deskt.s
+
+# target to generate assembly for a file
+Deskt.cpp.s:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Deskt.cpp.s
+.PHONY : Deskt.cpp.s
+
+Event.o: Event.cpp.o
+.PHONY : Event.o
+
+# target to build an object file
+Event.cpp.o:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Event.cpp.o
+.PHONY : Event.cpp.o
+
+Event.i: Event.cpp.i
+.PHONY : Event.i
+
+# target to preprocess a source file
+Event.cpp.i:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Event.cpp.i
+.PHONY : Event.cpp.i
+
+Event.s: Event.cpp.s
+.PHONY : Event.s
+
+# target to generate assembly for a file
+Event.cpp.s:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Event.cpp.s
+.PHONY : Event.cpp.s
+
+Figure.o: Figure.cpp.o
+.PHONY : Figure.o
+
+# target to build an object file
+Figure.cpp.o:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Figure.cpp.o
+.PHONY : Figure.cpp.o
+
+Figure.i: Figure.cpp.i
+.PHONY : Figure.i
+
+# target to preprocess a source file
+Figure.cpp.i:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Figure.cpp.i
+.PHONY : Figure.cpp.i
+
+Figure.s: Figure.cpp.s
+.PHONY : Figure.s
+
+# target to generate assembly for a file
+Figure.cpp.s:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Figure.cpp.s
+.PHONY : Figure.cpp.s
+
+Window.o: Window.cpp.o
+.PHONY : Window.o
+
+# target to build an object file
+Window.cpp.o:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Window.cpp.o
+.PHONY : Window.cpp.o
+
+Window.i: Window.cpp.i
+.PHONY : Window.i
+
+# target to preprocess a source file
+Window.cpp.i:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Window.cpp.i
+.PHONY : Window.cpp.i
+
+Window.s: Window.cpp.s
+.PHONY : Window.s
+
+# target to generate assembly for a file
+Window.cpp.s:
+	cd "/home/ilya/Рабочий стол/проекты/chess/tmp" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Window.cpp.s
+.PHONY : Window.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -162,7 +272,20 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... lib"
 	@echo "... main"
+	@echo "... Deskt.o"
+	@echo "... Deskt.i"
+	@echo "... Deskt.s"
+	@echo "... Event.o"
+	@echo "... Event.i"
+	@echo "... Event.s"
+	@echo "... Figure.o"
+	@echo "... Figure.i"
+	@echo "... Figure.s"
+	@echo "... Window.o"
+	@echo "... Window.i"
+	@echo "... Window.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
